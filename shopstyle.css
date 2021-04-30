@@ -1,0 +1,132 @@
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #dbf6e9;
+}
+
+.topnav a {
+  float: left;
+  color: #31326f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f39189;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+.topnav a.active {
+  background-color: #31326f;
+  color: white;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("shopbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+ font-family: 'Indie Flower', cursive;
+ font-weight: 1000;
+}
+
+/* grid */
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  margin-left: 110px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.column img{
+  width: 300px;
+  height: 300px;
+}
+
+.grid h1 h2 p{
+  font-family: 'Indie Flower', cursive;
+}
+
+.grid p{
+    font-size: 20px;
+}
+
+.grid i{
+  border-radius: 60px;
+  background-color: #caf7e3;
+  border: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+/* button */
+
+.btn {
+  background: #34d3d9;
+  background-image: -webkit-linear-gradient(top, #34d3d9, #2980b9);
+  background-image: -moz-linear-gradient(top, #34d3d9, #2980b9);
+  background-image: -ms-linear-gradient(top, #34d3d9, #2980b9);
+  background-image: -o-linear-gradient(top, #34d3d9, #2980b9);
+  background-image: linear-gradient(to bottom, #34d3d9, #2980b9);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  font-family: Georgia;
+  color: #fffaff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1484c9;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+  .column img {
+    width: 200px;
+  }
+  .card{
+    margin-right: 10px;
+  }
