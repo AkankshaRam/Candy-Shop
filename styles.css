@@ -187,15 +187,15 @@ img {vertical-align: middle;}
   height: 350px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  font-family: 'Indie Flower', cursive;
-
 }
 .row1{
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 40px;
-  font-family: 'Indie Flower', cursive;
+}
+#about h2 p{
+  font-family: 'Varela Round', sans-serif;
 }
 
 /* Clear floats after the columns */
